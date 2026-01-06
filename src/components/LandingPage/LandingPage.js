@@ -19,7 +19,7 @@ const LandingPage = () => {
             id: 2,
             name: "Jobby App",
             description: "This is a page where a user can find jobs and apply for them",
-            technologies: ": React JS, JS, CSS, Bootstrap, Routing, REST API Calls, LocalStorage, JWT Token, Authorization, Authentication",
+            technologies: "React JS, JS, CSS, Bootstrap, Routing, REST API Calls, LocalStorage, JWT Token, Authorization, Authentication",
             image: "https://i.postimg.cc/fT7qqW0p/jobby-app-image.png",
             link: "https://jobbylee.ccbp.tech/login"
         },
@@ -27,7 +27,7 @@ const LandingPage = () => {
             id: 3,
             name: "Foodie Stop",
             description: "This is a fully responsive website that offers a comprehensive list of food items and detailed information about each item.",
-            technologies: ":HTML, CSS, Bootstrap, React JS, React Router, React Icons, React Bootstrap",
+            technologies: "HTML, CSS, Bootstrap, React JS, React Router, React Icons, React Bootstrap",
             image: "https://i.postimg.cc/Zn5nwXTf/logo-transparent-png.png",
             link: "https://foodie-stop-xi.vercel.app/"
         },
@@ -35,7 +35,7 @@ const LandingPage = () => {
             id: 4,
             name: "Weather App",
             description: "A responsive React weather app showing real-time data with animated icons and search functionality using OpenWeatherMap API.",
-            technologies: ":React, Axios, Bootstrap, Lottie, OpenWeatherMap API, HTML, CSS",
+            technologies: "React, Axios, Bootstrap, Lottie, OpenWeatherMap API, HTML, CSS",
             image: "https://i.postimg.cc/6pptWgNY/weather.png",
             link: "https://weather-app-omega-eight-26.vercel.app/"
         },
@@ -43,9 +43,25 @@ const LandingPage = () => {
             id: 5,
             name: "Guessing Game",
             description: "A responsive React Guessing Game app using React.Js",
-            technologies: ":React, HTML, CSS",
+            technologies: "React, HTML, CSS",
             image: "https://i.postimg.cc/13QKXs1c/10374941-4462136.jpg",
             link: "https://guessing-game-rouge-three.vercel.app//"
+        },
+        {
+            id: 6,
+            name: "Job Application Tracker",
+            description: "A Job Application Tracker app to track job applications using HTML, CSS, JavaScript, React.Js, local storage.",
+            technologies: "HTML, CSS, JavaScript , React.Js, local storage",
+            image: "https://i.postimg.cc/sXRjcqr2/Screenshot-2026-01-06-152426.png",
+            link: "https://job-tracking-application-teal.vercel.app/"
+        },
+        {
+            id: 7,
+            name: "Product listing Page",
+            description: "A Product listing Page app to list products using HTML, CSS, JavaScript, React.Js, Fake Store API.",
+            technologies: "HTML, CSS, JavaScript , React.Js, Fake Store API",
+            image: "https://i.postimg.cc/5NnN5syY/Screenshot-2026-01-06-153929.png",
+            link: "https://appscrip-task-kishore-gundelli.vercel.app/"
         }
 
     ]
@@ -259,7 +275,7 @@ const LandingPage = () => {
         <footer className="footer-container fixed-bottom">
       <div className="footer-content">
         <div className="social-icons">
-          <a href="https://github.com/kishore771?tab=repositories" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <a href="https://github.com/kishore771" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaGithub />
           </a>
           <a href="http://www.linkedin.com/in/g-kishore-g-78579432b" target="_blank" rel="noopener noreferrer" className="social-icon">
