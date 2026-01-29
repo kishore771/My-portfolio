@@ -138,7 +138,7 @@ const LandingPage = () => {
             <div className="intro-buttons">
             <a href="#sectionAboutMe" className="btn">Learn More About Me</a>
             <a href="#sectionProjects" className="btn btn-secondary">View My Projects</a>
-            <button className="btn btn-secondary download-btn" onClick={() => { window.location.href = 'https://drive.google.com/file/d/1XUZXtxwuo9wpNJIVXd8Wg_11LNZzoNIG/view?usp=drive_link'; }
+            <button className="btn btn-secondary download-btn" onClick={() => { window.location.href = 'https://drive.google.com/file/d/1iZkTGnLEcZfVVMXr5aoFY07c-xEeKCqp/view?usp=sharing'; }
             }>
               Download CV
             </button>
